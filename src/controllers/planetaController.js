@@ -24,7 +24,7 @@ router.post('/adicionar', async (req,res) => {
        }
         const planeta =  await Planeta.create(dados);
 
-        return res.send({ planeta });
+        return res.send(planeta);
     } catch (err){
         return res.status(400).send({ error : 'Registro falhou'});
     }
