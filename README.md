@@ -46,7 +46,7 @@ May the force be with you!
 
 ```javascript
   {
-    "nome": "Tatooine",
+    "nome": "Planeta",
     "clima": "Árido",
     "terreno": "Deserto"
   } 
