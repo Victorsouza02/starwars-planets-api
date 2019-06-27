@@ -32,8 +32,10 @@ May the force be with you!
 - MongoDB
 - Insomnia (No caso eu usei esse para testar as requisições)
 
-### Clonar o repositório :
-> git clone https://github.com/Victorsouza02/StarWars-Planetas-API.git
+### Clonar o repositório e iniciar o servidor :
+    git clone https://github.com/Victorsouza02/StarWars-Planetas-API.git
+    cd StarWars-Planetas-API
+    node src/index.js
 
 ### Dados :
 - Endereço Local : http://localhost:3000
