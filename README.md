@@ -29,7 +29,6 @@ May the force be with you!
 
 ### Pré-requisitos :
 - Node.js
-- MongoDB
 - Insomnia (No caso eu usei esse para testar as requisições)
 
 ### Clonar o repositório, instalar as dependências e iniciar o servidor :
@@ -43,7 +42,7 @@ May the force be with you!
 
 ### Comandos :
 
-- Adicionar um novo planeta : POST http://localhost:3000/planetas/adicionar
+- Adicionar um novo planeta : POST http://localhost:3000/planetas
 
 ```javascript
   {
@@ -53,7 +52,7 @@ May the force be with you!
   } 
   ```
   
-- Listar todos os planetas cadastrados : GET http://localhost:3000/planetas/
-- Buscar planeta pelo nome : GET http://localhost:3000/planetas/nome/NOME_DO_PLANETA
-- Buscar planeta pelo ID : GET http://localhost:3000/planetas/id/ID_DO_PLANETA
-- Deletar planeta pelo ID : DELETE http://localhost:3000/planetas/id/ID_DO_PLANETA
+- Listar todos os planetas cadastrados : GET http://localhost:3000/planetas
+- Buscar planeta pelo nome : GET http://localhost:3000/planetas?nome=NOME_DO_PLANETA
+- Buscar planeta pelo ID : GET http://localhost:3000/planetas?id=ID_DO_PLANETA
+- Deletar planeta pelo ID : DELETE http://localhost:3000/planetas/ID_DO_PLANETA
